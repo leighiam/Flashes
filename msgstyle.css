@@ -1,0 +1,337 @@
+body{
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid-item-1{
+    background: none;
+}
+
+.grid-item-2{
+    background: none;
+}
+
+#msg-container{
+    width: 50vw;
+    height: 100%;
+    background-image: url("whatsappbg.jpg");
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.btn-container{
+    width: 20%;
+    margin: 0 auto;
+    height: 150px;
+    background: none;
+    bottom: 0;
+    text-align: center;
+}
+
+.fixed{
+    position: fixed;
+}
+
+#header{
+    width: 50vw;
+    height: 100px;
+    background-color: #0e0e12;
+    position: fixed;
+}
+
+.pro-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    vertical-align: middle;
+    padding: 0px;
+    display: inline-block;
+}
+
+.pro-pic-2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    vertical-align: middle;
+    margin-left: 40px;
+    padding: 0px;
+}
+
+.time{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    display: none;
+    top: 0;
+}
+
+.notif{
+    width: 50%;
+    height: 60px;
+    background-color: white;
+    display: inline-block;
+    top: 0;
+    margin-left: 10%; 
+    margin-right: 14%;
+}
+
+/*.hidden{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}*/
+
+.rcv-msg{
+    min-width: none;
+    max-width: 60%;
+    min-height: none;
+    max-height: 50vh;
+    border-radius: 2px;
+    background: #606361;
+    color: white;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: arial;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.rcv-msg > p{margin-left: 10px;}
+
+.sb2:before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #606361;
+    border-top: 10px solid #606361;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 6px;
+}	
+
+.sb5:before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #3e755e;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #3e755e;
+    border-bottom: 10px solid transparent;
+    right: -20px;
+    top: 6px;
+}
+
+.send-msg{
+    float: right;
+    line-height: 80%;
+    margin-right: 20px;
+    background: #3e755e;
+}
+
+.msg-container-1{
+    width: 100%;
+    min-height: 100px;
+    max-height: 80vh;
+    background-color: none;
+    margin: 0px;
+    clear: both;
+}
+
+.blue{
+    background-color: none;
+}
+
+.hidden-msg{
+    display: none;
+}
+
+.visible-msg{
+    display: block;
+}
+
+.contact{
+    height: 60%;
+    width: 100%;
+}
+
+.contact-2{
+    height: 40%;
+    width: 100%;
+}
+
+.network{
+    display: inline-block;
+    height: 40%;
+    width: 100%;
+    background: none;
+}
+
+.network-2{
+    display: inline-block;
+    height: 60%;
+    width: 100%;
+    background: none;
+}
+
+.phone-info{
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    background-color: black;
+}
+
+.net-img{
+    margin-top: 4px;
+    width: 30px;
+    height: 20px;
+}
+
+.con-img{
+    width: 45px;
+    height: 45px;
+}
+.con-img-2{
+    width: 55px;
+    height: 40px;
+}
+
+.con-img-3{
+    width: 40px;
+    height: 40px;
+}
+
+.notif-img{
+    width: 40px;
+    height: 40px;
+}
+
+.p{
+    display: inline; 
+    margin-left: 22%;
+    margin-right: 32%;
+    font-size: 20px;
+    color: white;
+}
+
+.p-1{
+    display: none;
+}
+
+.p1{
+    display: inline; 
+    font-size: 20px;
+    color: white;
+}
+
+
+.header-2{
+    margin-left: 1%;
+    height: 120px;
+    background-color: #373738;
+    border-radius: 5px;
+    width: 98%;
+    line-height: 80%;
+    opacity: 0.98;
+}
+
+.button{
+    background: none;
+    border: 2px solid #4CAF50;
+    color: black;
+    padding: 30px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15%;
+    cursor: pointer;
+}
+
+.snap-msg-con{
+    width: 100%;
+    min-height: 3vh;
+    max-height: 50vh;
+    background-color: #f2f2f2;
+    margin: 0px;
+    border-left: 3px solid #00a3e3;
+    clear: both;
+}
+
+.snap-msg-con-2{
+    border-left: 3px solid #f00a52;
+}
+
+.snap-contact{
+    font-size: 15px; 
+    color: #00a3e3; 
+    padding-bottom: 0px; 
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.snap-date{
+    margin-left: 20vw;
+    color: grey;
+}
+
+.rcv-msg-2{
+    background-color: #0649CE;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.send-msg-2{
+    background-color: #F2F2F2;
+    color: black;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.rcv-msg-3{
+    background-color: #606361;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.send-msg-3{
+    background-color: black;
+    border: 1px solid #606361;
+    display: inline-block;
+    color: white;
+    border-radius: 50px;
+}
+
+.mail-msg{
+    border-bottom: 1px solid #cccccc;
+    color: white;
+    /*max-height: 80vh;*/
+}
+
+.g-p{
+    margin-left: 2%;
+}
+
+.s-p{
+    margin-left: 1%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
