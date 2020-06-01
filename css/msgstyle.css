@@ -19,7 +19,7 @@ body{
 #msg-container{
     width: 50vw;
     height: 100%;
-    background-image: url("whatsappbg.jpg");
+    background-image: url("../images/whatsappbg.jpg");
     /*background-repeat: no-repeat;
     background-size: cover;*/
 }
